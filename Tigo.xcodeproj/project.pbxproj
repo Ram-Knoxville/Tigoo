@@ -21,6 +21,7 @@
 		21B092991EC4CDA4007351B4 /* CategoriasRines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B092981EC4CDA4007351B4 /* CategoriasRines.swift */; };
 		21CE00A81EC5F251007C3E01 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21CE00A71EC5F251007C3E01 /* SWRevealViewController.m */; };
 		21CE00AA1EC6266F007C3E01 /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21CE00A91EC6266F007C3E01 /* MenuVC.swift */; };
+		21CE00AC1EC668CF007C3E01 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21CE00AB1EC668CF007C3E01 /* LoginVC.swift */; };
 		29AEBE9CB5CA2F389712939E /* Pods_Tigo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D0192244DC43662DAF0E4E7 /* Pods_Tigo.framework */; };
 /* End PBXBuildFile section */
 
@@ -43,6 +44,7 @@
 		21CE00A61EC5F251007C3E01 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = ../../librerias_utiles/iOS/SWRevealViewController/SWRevealViewController/SWRevealViewController.h; sourceTree = "<group>"; };
 		21CE00A71EC5F251007C3E01 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWRevealViewController.m; path = ../../librerias_utiles/iOS/SWRevealViewController/SWRevealViewController/SWRevealViewController.m; sourceTree = "<group>"; };
 		21CE00A91EC6266F007C3E01 /* MenuVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuVC.swift; sourceTree = "<group>"; };
+		21CE00AB1EC668CF007C3E01 /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		8D0192244DC43662DAF0E4E7 /* Pods_Tigo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tigo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A36111B17FA029C457E1189F /* Pods-Tigo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tigo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tigo/Pods-Tigo.release.xcconfig"; sourceTree = "<group>"; };
 		B2BF6889EEBDE45F9517B409 /* Pods-Tigo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tigo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tigo/Pods-Tigo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 				21B0928D1EC4C19A007351B4 /* LlantasVC.swift */,
 				21B0928B1EC4C18B007351B4 /* RinesVC.swift */,
 				21CE00A91EC6266F007C3E01 /* MenuVC.swift */,
+				21CE00AB1EC668CF007C3E01 /* LoginVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -270,6 +273,7 @@
 			files = (
 				21B0927A1EC4B0B3007351B4 /* AppDelegate.swift in Sources */,
 				215BDB011EC50986000E4FF6 /* CeldaLlanta.swift in Sources */,
+				21CE00AC1EC668CF007C3E01 /* LoginVC.swift in Sources */,
 				21B092931EC4C28C007351B4 /* CATEGORIAS.swift in Sources */,
 				21B092991EC4CDA4007351B4 /* CategoriasRines.swift in Sources */,
 				21B092951EC4C336007351B4 /* CeldaCategoria.swift in Sources */,

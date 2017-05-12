@@ -75,6 +75,7 @@ class MenuVC: UIViewController {
         vistaContacto.backgroundColor = UIColor.white
         vistaBuscar.backgroundColor = UIColor.white
         vistaLogin.backgroundColor = UIColor.white
+        performSegue(withIdentifier: "menuToHome", sender: self)
     }
     
     @IBAction func cuentaTapped(_ sender: Any) {
@@ -184,6 +185,8 @@ class MenuVC: UIViewController {
         vistaContacto.backgroundColor = UIColor.white
         vistaBuscar.backgroundColor = UIColor.white
         vistaLogin.backgroundColor = #colorLiteral(red: 0.6000000238, green: 0.6000000238, blue: 0.6000000238, alpha: 1)
+        
+        performSegue(withIdentifier: "menuToLogin", sender: self)
     }
     
     
