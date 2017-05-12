@@ -7,21 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		215BDB011EC50986000E4FF6 /* CeldaLlanta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215BDB001EC50986000E4FF6 /* CeldaLlanta.swift */; };
+		215BDB031EC509B2000E4FF6 /* Llantas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215BDB021EC509B2000E4FF6 /* Llantas.swift */; };
 		21B0927A1EC4B0B3007351B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B092791EC4B0B3007351B4 /* AppDelegate.swift */; };
-		21B0927C1EC4B0B3007351B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B0927B1EC4B0B3007351B4 /* ViewController.swift */; };
 		21B0927F1EC4B0B3007351B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21B0927D1EC4B0B3007351B4 /* Main.storyboard */; };
 		21B092811EC4B0B3007351B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21B092801EC4B0B3007351B4 /* Assets.xcassets */; };
 		21B092841EC4B0B3007351B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21B092821EC4B0B3007351B4 /* LaunchScreen.storyboard */; };
+		21B0928C1EC4C18B007351B4 /* RinesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B0928B1EC4C18B007351B4 /* RinesVC.swift */; };
+		21B0928E1EC4C19A007351B4 /* LlantasVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B0928D1EC4C19A007351B4 /* LlantasVC.swift */; };
+		21B092931EC4C28C007351B4 /* CATEGORIAS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B092921EC4C28C007351B4 /* CATEGORIAS.swift */; };
+		21B092951EC4C336007351B4 /* CeldaCategoria.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B092941EC4C336007351B4 /* CeldaCategoria.swift */; };
+		21B092971EC4CD81007351B4 /* CeldaCategoriaRines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B092961EC4CD81007351B4 /* CeldaCategoriaRines.swift */; };
+		21B092991EC4CDA4007351B4 /* CategoriasRines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B092981EC4CDA4007351B4 /* CategoriasRines.swift */; };
+		21CE00A81EC5F251007C3E01 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21CE00A71EC5F251007C3E01 /* SWRevealViewController.m */; };
+		29AEBE9CB5CA2F389712939E /* Pods_Tigo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D0192244DC43662DAF0E4E7 /* Pods_Tigo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		215BDB001EC50986000E4FF6 /* CeldaLlanta.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CeldaLlanta.swift; sourceTree = "<group>"; };
+		215BDB021EC509B2000E4FF6 /* Llantas.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Llantas.swift; sourceTree = "<group>"; };
+		215BDB041EC5712B000E4FF6 /* Tigo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tigo-Bridging-Header.h"; sourceTree = "<group>"; };
 		21B092761EC4B0B3007351B4 /* Tigo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tigo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		21B092791EC4B0B3007351B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		21B0927B1EC4B0B3007351B4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		21B0927E1EC4B0B3007351B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		21B092801EC4B0B3007351B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		21B092831EC4B0B3007351B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		21B092851EC4B0B3007351B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21B0928B1EC4C18B007351B4 /* RinesVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RinesVC.swift; sourceTree = "<group>"; };
+		21B0928D1EC4C19A007351B4 /* LlantasVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LlantasVC.swift; sourceTree = "<group>"; };
+		21B092921EC4C28C007351B4 /* CATEGORIAS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CATEGORIAS.swift; sourceTree = "<group>"; };
+		21B092941EC4C336007351B4 /* CeldaCategoria.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CeldaCategoria.swift; sourceTree = "<group>"; };
+		21B092961EC4CD81007351B4 /* CeldaCategoriaRines.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CeldaCategoriaRines.swift; sourceTree = "<group>"; };
+		21B092981EC4CDA4007351B4 /* CategoriasRines.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoriasRines.swift; sourceTree = "<group>"; };
+		21CE00A61EC5F251007C3E01 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = ../../librerias_utiles/iOS/SWRevealViewController/SWRevealViewController/SWRevealViewController.h; sourceTree = "<group>"; };
+		21CE00A71EC5F251007C3E01 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWRevealViewController.m; path = ../../librerias_utiles/iOS/SWRevealViewController/SWRevealViewController/SWRevealViewController.m; sourceTree = "<group>"; };
+		8D0192244DC43662DAF0E4E7 /* Pods_Tigo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tigo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A36111B17FA029C457E1189F /* Pods-Tigo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tigo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tigo/Pods-Tigo.release.xcconfig"; sourceTree = "<group>"; };
+		B2BF6889EEBDE45F9517B409 /* Pods-Tigo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tigo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tigo/Pods-Tigo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29AEBE9CB5CA2F389712939E /* Pods_Tigo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +63,8 @@
 			children = (
 				21B092781EC4B0B3007351B4 /* Tigo */,
 				21B092771EC4B0B3007351B4 /* Products */,
+				F5D2BEF6113165AF2FC52868 /* Pods */,
+				78B565D9A50728397CF37460 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +79,65 @@
 		21B092781EC4B0B3007351B4 /* Tigo */ = {
 			isa = PBXGroup;
 			children = (
+				21B092911EC4C22B007351B4 /* Model */,
+				21B092901EC4C21E007351B4 /* View */,
+				21B0928F1EC4C214007351B4 /* Controller */,
 				21B092791EC4B0B3007351B4 /* AppDelegate.swift */,
-				21B0927B1EC4B0B3007351B4 /* ViewController.swift */,
 				21B0927D1EC4B0B3007351B4 /* Main.storyboard */,
 				21B092801EC4B0B3007351B4 /* Assets.xcassets */,
 				21B092821EC4B0B3007351B4 /* LaunchScreen.storyboard */,
 				21B092851EC4B0B3007351B4 /* Info.plist */,
+				21CE00A61EC5F251007C3E01 /* SWRevealViewController.h */,
+				21CE00A71EC5F251007C3E01 /* SWRevealViewController.m */,
+				215BDB041EC5712B000E4FF6 /* Tigo-Bridging-Header.h */,
 			);
 			path = Tigo;
+			sourceTree = "<group>";
+		};
+		21B0928F1EC4C214007351B4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				21B0928D1EC4C19A007351B4 /* LlantasVC.swift */,
+				21B0928B1EC4C18B007351B4 /* RinesVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		21B092901EC4C21E007351B4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				21B092941EC4C336007351B4 /* CeldaCategoria.swift */,
+				21B092961EC4CD81007351B4 /* CeldaCategoriaRines.swift */,
+				215BDB001EC50986000E4FF6 /* CeldaLlanta.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		21B092911EC4C22B007351B4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				21B092921EC4C28C007351B4 /* CATEGORIAS.swift */,
+				21B092981EC4CDA4007351B4 /* CategoriasRines.swift */,
+				215BDB021EC509B2000E4FF6 /* Llantas.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		78B565D9A50728397CF37460 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8D0192244DC43662DAF0E4E7 /* Pods_Tigo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F5D2BEF6113165AF2FC52868 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B2BF6889EEBDE45F9517B409 /* Pods-Tigo.debug.xcconfig */,
+				A36111B17FA029C457E1189F /* Pods-Tigo.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +147,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 21B092881EC4B0B3007351B4 /* Build configuration list for PBXNativeTarget "Tigo" */;
 			buildPhases = (
+				FE4800A921089A2368722E08 /* [CP] Check Pods Manifest.lock */,
 				21B092721EC4B0B3007351B4 /* Sources */,
 				21B092731EC4B0B3007351B4 /* Frameworks */,
 				21B092741EC4B0B3007351B4 /* Resources */,
+				FE86AC96CD4C2D4A532B582C /* [CP] Embed Pods Frameworks */,
+				0E400050A0A1B01163E2FBF1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -97,6 +176,7 @@
 					21B092751EC4B0B3007351B4 = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = S4V28N4MSW;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -132,13 +212,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0E400050A0A1B01163E2FBF1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tigo/Pods-Tigo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE4800A921089A2368722E08 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FE86AC96CD4C2D4A532B582C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tigo/Pods-Tigo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		21B092721EC4B0B3007351B4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				21B0927C1EC4B0B3007351B4 /* ViewController.swift in Sources */,
 				21B0927A1EC4B0B3007351B4 /* AppDelegate.swift in Sources */,
+				215BDB011EC50986000E4FF6 /* CeldaLlanta.swift in Sources */,
+				21B092931EC4C28C007351B4 /* CATEGORIAS.swift in Sources */,
+				21B092991EC4CDA4007351B4 /* CategoriasRines.swift in Sources */,
+				21B092951EC4C336007351B4 /* CeldaCategoria.swift in Sources */,
+				21B092971EC4CD81007351B4 /* CeldaCategoriaRines.swift in Sources */,
+				215BDB031EC509B2000E4FF6 /* Llantas.swift in Sources */,
+				21CE00A81EC5F251007C3E01 /* SWRevealViewController.m in Sources */,
+				21B0928E1EC4C19A007351B4 /* LlantasVC.swift in Sources */,
+				21B0928C1EC4C18B007351B4 /* RinesVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,26 +395,33 @@
 		};
 		21B092891EC4B0B3007351B4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2BF6889EEBDE45F9517B409 /* Pods-Tigo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = S4V28N4MSW;
 				INFOPLIST_FILE = Tigo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mx.rowantechnologies.Tigo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Tigo/Tigo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		21B0928A1EC4B0B3007351B4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A36111B17FA029C457E1189F /* Pods-Tigo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = S4V28N4MSW;
 				INFOPLIST_FILE = Tigo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mx.rowantechnologies.Tigo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Tigo/Tigo-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -302,6 +445,7 @@
 				21B0928A1EC4B0B3007351B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
