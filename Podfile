@@ -6,5 +6,5 @@ target 'Tigo' do
   use_frameworks!
 
   # Pods for Tigo
- 
+  pod 'Font-Awesome-Swift', '~> 1.6.2'
 end
