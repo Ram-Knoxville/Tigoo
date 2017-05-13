@@ -689,6 +689,8 @@
                     </view>
                     <connections>
                         <outlet property="menuBtn" destination="pyZ-hz-zWu" id="oFO-KG-27d"/>
+                        <outlet property="passwordTxt" destination="hxf-ZK-XC0" id="FCs-M2-4Ci"/>
+                        <outlet property="usernameTxt" destination="X14-lS-nVF" id="qDt-mD-qIl"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="U2I-91-FWu" userLabel="First Responder" sceneMemberID="firstResponder"/>
