@@ -597,25 +597,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yiL-4G-cFq">
-                                <rect key="frame" x="16" y="606" width="176" height="61"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="61" id="ay4-CC-qb2"/>
-                                </constraints>
-                                <state key="normal" image="facebook-login">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DQj-4p-tZy">
-                                <rect key="frame" x="193" y="613" width="166" height="46"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="46" id="gh2-pX-fAL"/>
-                                    <constraint firstAttribute="width" constant="166" id="kyZ-NX-EBJ"/>
-                                </constraints>
-                                <state key="normal" image="twitter_login">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                            </button>
                             <navigationBar contentMode="scaleAspectFit" barStyle="black" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jqh-Q0-CQ6">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="60"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -669,22 +650,17 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="X14-lS-nVF" firstAttribute="top" secondItem="jqh-Q0-CQ6" secondAttribute="bottom" constant="207" id="0P5-tM-yAm"/>
-                            <constraint firstItem="6Ko-Ms-UFx" firstAttribute="top" secondItem="yiL-4G-cFq" secondAttribute="bottom" id="4uN-uZ-eFV"/>
                             <constraint firstItem="uC4-c5-pyM" firstAttribute="top" secondItem="hxf-ZK-XC0" secondAttribute="bottom" constant="19" id="9i2-Iu-Pu1"/>
                             <constraint firstItem="X14-lS-nVF" firstAttribute="trailing" secondItem="HeI-pl-wE5" secondAttribute="trailingMargin" id="9w4-5W-1rt"/>
                             <constraint firstItem="uC4-c5-pyM" firstAttribute="trailing" secondItem="HeI-pl-wE5" secondAttribute="trailingMargin" id="FXH-gi-6Bx"/>
-                            <constraint firstItem="yiL-4G-cFq" firstAttribute="leading" secondItem="HeI-pl-wE5" secondAttribute="leadingMargin" id="Qkk-Z0-D3v"/>
                             <constraint firstItem="uC4-c5-pyM" firstAttribute="leading" secondItem="HeI-pl-wE5" secondAttribute="leadingMargin" id="WVB-II-UdN"/>
                             <constraint firstItem="jqh-Q0-CQ6" firstAttribute="leading" secondItem="HeI-pl-wE5" secondAttribute="leading" id="ZZS-Dj-qMV"/>
                             <constraint firstItem="X14-lS-nVF" firstAttribute="leading" secondItem="HeI-pl-wE5" secondAttribute="leadingMargin" id="dqf-re-ucc"/>
-                            <constraint firstItem="6Ko-Ms-UFx" firstAttribute="top" secondItem="DQj-4p-tZy" secondAttribute="bottom" constant="8" id="fdg-su-BqJ"/>
                             <constraint firstAttribute="trailing" secondItem="jqh-Q0-CQ6" secondAttribute="trailing" id="jGh-cu-avj"/>
-                            <constraint firstItem="DQj-4p-tZy" firstAttribute="trailing" secondItem="HeI-pl-wE5" secondAttribute="trailingMargin" id="juT-Dz-RBd"/>
                             <constraint firstItem="jqh-Q0-CQ6" firstAttribute="top" secondItem="HeI-pl-wE5" secondAttribute="top" id="lPj-qq-KF4"/>
                             <constraint firstItem="hxf-ZK-XC0" firstAttribute="top" secondItem="X14-lS-nVF" secondAttribute="bottom" constant="8" id="lbO-2i-bz4"/>
                             <constraint firstItem="hxf-ZK-XC0" firstAttribute="leading" secondItem="HeI-pl-wE5" secondAttribute="leadingMargin" id="mdc-wP-6Ts"/>
                             <constraint firstItem="hxf-ZK-XC0" firstAttribute="trailing" secondItem="HeI-pl-wE5" secondAttribute="trailingMargin" id="vYZ-LG-KXl"/>
-                            <constraint firstItem="DQj-4p-tZy" firstAttribute="leading" secondItem="yiL-4G-cFq" secondAttribute="trailing" constant="1" id="wZH-gI-Ena"/>
                         </constraints>
                     </view>
                     <connections>
@@ -873,9 +849,7 @@
     <resources>
         <image name="bmwTire" width="28" height="28"/>
         <image name="browsebutton" width="20" height="16"/>
-        <image name="facebook-login" width="414" height="102"/>
         <image name="tire" width="980" height="980"/>
-        <image name="twitter_login" width="592" height="120"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="WFk-cl-ti2"/>
